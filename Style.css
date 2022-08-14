@@ -1,0 +1,253 @@
+* {
+  font-family: "Inter", sans-serif;
+  background-color: #141414;
+}
+
+.nav-parent {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  padding-top: 1rem;
+}
+.navbar {
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.nav-logo {
+  color: white;
+  font-family: "Playfair Display";
+  font-weight: 800;
+  cursor: pointer;
+}
+
+.navlogo-parent {
+  display: flex;
+  align-items: center;
+}
+.navlogo-parent > .nav-right {
+  padding-left: 1rem;
+}
+.navbar > .navEle {
+  text-decoration: none;
+  padding-left: 3rem;
+  color: rgb(166, 166, 166);
+}
+
+.navbar > .navEle:hover {
+  color: white;
+}
+
+.herosection {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 16rem;
+}
+
+.hero-text {
+  color: #fff;
+  font-family: "Playfair Display";
+  font-style: italic;
+  font-size: 4rem;
+  font-weight: 800;
+  line-height: 120%;
+}
+.herosection-subtext {
+  padding-top: 1rem;
+}
+
+.hero-subtext {
+  color: #fff;
+  font-family: "Inter";
+  text-align: center;
+  letter-spacing: 0.02rem;
+  font-weight: 400;
+  font-size: 1.125rem;
+  line-height: 150%;
+}
+
+.herosection-subtext > .hero-subtext > .herohighlight-1 {
+  color: #9381ff;
+}
+.herohighlight-2 {
+  color: #ffd8be;
+}
+
+.aboutsection {
+  display: flex;
+  align-items: center;
+  color: white;
+  justify-content: space-evenly;
+  padding-top: 20rem;
+  padding-left: 152px;
+}
+
+.aboutsection-left-topheading {
+  font-weight: 800;
+  font-family: "Playfair Display";
+  font-size: 3rem;
+  font-style: italic;
+}
+
+.aboutsection-left-bottom {
+  padding-top: 1.5rem;
+  font-family: "Inter";
+  font-weight: 400;
+  line-height: 160%;
+  letter-spacing: 2%;
+}
+
+.aboutsection-right-img {
+  border-radius: 6px;
+  filter: drop-shadow(0px 8px 32px rgba(0, 0, 0, 0.79));
+}
+
+.aboutsection-right {
+  padding-right: 152px;
+}
+
+.myworksection-parent {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  padding-top: 20rem;
+}
+.myworksection-heading {
+  padding-left: 278px;
+  padding-bottom: 5rem;
+}
+
+.myworksection-heading > .myworksection-heading-txt {
+  font-size: 3rem;
+  font-weight: 800;
+  font-family: "Playfair Display";
+  font-style: italic;
+}
+
+.myworksection-prj1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.myworksection-prj1-bottomheading {
+  font-family: "Inter";
+  font-weight: 600;
+  font-size: 1.5rem;
+  padding-top: 2rem;
+}
+
+.myworksection-prj1-bottomtext {
+  color: #898989;
+  padding-top: 0.5rem;
+  font-family: "Inter";
+  font-weight: 500;
+  line-height: 160%;
+  kerning: 2%;
+}
+
+.myworksection-prj1-links {
+  display: flex;
+  align-items: center;
+  padding-top: 1.5rem;
+  padding-right: 53rem;
+}
+.myworksection-prj1-links:hover {
+  cursor: pointer;
+}
+
+.myworksection-prj1-links > .myworksection-prj1-l1 {
+  align-items: center;
+  color: #e66f15;
+  font-size: 1.2rem;
+  font-family: "Inter";
+  font-weight: 600;
+  padding-right: 1.2rem;
+}
+
+.myworksection-prj2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-top: 12rem;
+}
+
+.myworksection-prj2-bottomheading {
+  font-family: "Inter";
+  font-weight: 600;
+  font-size: 1.5rem;
+  padding-top: 0.5rem;
+}
+
+.myworksection-prj2-bottomtext {
+  color: #898989;
+  padding-top: 0.5rem;
+  font-family: "Inter";
+  font-weight: 500;
+  line-height: 160%;
+  kerning: 2%;
+}
+
+.myworksection-prj2-links {
+  display: flex;
+}
+
+.myworksection-prj1-topimg {
+  transition: transform 0.5s; /* Animation */
+}
+.myworksection-prj1-topimg:hover {
+  transform: scale(1.05);
+}
+
+.contactme-section-parent {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  padding-top: 8rem;
+  align-items: center;
+}
+
+.contactme-heading {
+  padding-bottom: 2rem;
+}
+.contactme-heading > .contactme-heading-text {
+  font-size: 2rem;
+  font-weight: 600;
+  font-style: italic;
+  font-family: "Playfair Display";
+}
+
+.contactme-subtext {
+  padding-bottom: 2rem;
+}
+
+.contactme-subtext-mail {
+  color: #898989;
+  font-family: "Inter";
+  font-weight: 600;
+}
+.contactme-subtext-mail:hover {
+  color: white;
+  cursor: pointer;
+}
+
+.contactme-subtext > .contactme-socials {
+  display: flex;
+  justify-content: space-evenly;
+  width: 50%;
+}
+
+.contactme-socials > .contactme-icons > .contactme-icons-link {
+  text-decoration: none;
+  color: #898989;
+  font-family: "Inter";
+  font-weight: 600;
+}
+
+.contactme-socials > .contactme-icons > .contactme-icons-link:hover {
+  color: white;
+}

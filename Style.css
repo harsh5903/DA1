@@ -153,7 +153,7 @@
   display: flex;
   align-items: center;
   padding-top: 1.5rem;
-  padding-right: 53rem;
+  padding-right: 49rem;
 }
 .myworksection-prj1-links:hover {
   cursor: pointer;
@@ -166,6 +166,11 @@
   font-family: "Inter";
   font-weight: 600;
   padding-right: 1.2rem;
+}
+
+.myworksection-prj1-links > .myworksection-prj1-l1 > a {
+  text-decoration: none;
+  color: #e66f15;
 }
 
 .myworksection-prj2 {
@@ -191,9 +196,24 @@
   line-height: 160%;
   kerning: 2%;
 }
+.myworksection-prj2-links > .myworksection-prj2-l1 {
+  align-items: center;
+  color: #e66f15;
+  font-size: 1.2rem;
+  font-family: "Inter";
+  font-weight: 600;
+  padding-right: 1.2rem;
+}
+.myworksection-prj2-links > .myworksection-prj2-l1 > a {
+  text-decoration: none;
+  color: #e66f15;
+}
 
 .myworksection-prj2-links {
   display: flex;
+  align-items: center;
+  padding-top: 1.5rem;
+  padding-right: 49rem;
 }
 
 .myworksection-prj1-topimg {
